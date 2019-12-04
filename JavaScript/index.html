@@ -4,15 +4,25 @@
   </head>
   <body>
     <script>
-      /*var x = 10,
-        y = 5;
-      var resultado = x + y;
-      console.log(resultado);*/
-      function soma(numero1, numero2) {
-        var resultado = numero1 + numero2;
-        return resultado;
+      function sexo(sexo) {
+        /*if (sexo === "M") {
+          return "Masculino";
+        } else if (sexo === "F") {
+          return "Feminino";
+        } else {
+          return "Outro";
+        }*/
+
+        switch (sexo) {
+          case "M":
+            return "Masculino";
+          case "F":
+            return "Feminino";
+          default:
+            return "Outro";
+        }
       }
-      var resultado = soma(1, 2);
+      var resultado = sexo("F");
       console.log(resultado);
     </script>
   </body>
