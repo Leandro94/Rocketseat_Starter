@@ -5,3 +5,5 @@ npm install express
 npm install -D nodemon
 npm run dev
 docker pull mongo
+npm install mongoose-paginate
+npm install cors
