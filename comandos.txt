@@ -1,4 +1,25 @@
-node:
+REACT_JS
+
+npm install -g create-react-app
+npm install -global create-react-app
+create-react-app huntweb
+deletar em src App.css - App.test.js - index.css - logo.svg
+- remover importacao no index.js = css
+- remover no App.js = import logo from './logo.svg'; import './App.css';
+- apagar tudo e deixar:
+function App() {
+  return (
+    <div className="App">
+      <h1>Hello Rocketseat</h1>
+    </div>
+  );
+}
+yarn add axios para / acessar a api
+yarn add react-router-dom / rotas
+
+----------------------------------------------------
+
+NODE_JS
 
 npm init -y
 npm install express
